@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3834802023486F940080C0D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3834801F23486F940080C0D3 /* AppDelegate.swift */; };
+		3834802223486F940080C0D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3834802123486F940080C0D3 /* SceneDelegate.swift */; };
+		3834802423486F940080C0D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3834802323486F940080C0D3 /* ViewController.swift */; };
+		3834802723486F940080C0D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3834802523486F940080C0D3 /* Main.storyboard */; };
+		3834802A23486F940080C0D3 /* MarsPriceDetector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3834802823486F940080C0D3 /* MarsPriceDetector.xcdatamodeld */; };
+		3834802C23486F970080C0D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3834802B23486F970080C0D3 /* Assets.xcassets */; };
+		3834802F23486F970080C0D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3834802D23486F970080C0D3 /* LaunchScreen.storyboard */; };
+		3834803A23486F980080C0D3 /* MarsPriceDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3834803923486F980080C0D3 /* MarsPriceDetectorTests.swift */; };
+		3834804523486F980080C0D3 /* MarsPriceDetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3834804423486F980080C0D3 /* MarsPriceDetectorUITests.swift */; };
+		3834805323486FAB0080C0D3 /* MarsHabitatPricer.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3834805223486FAB0080C0D3 /* MarsHabitatPricer.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3834803623486F980080C0D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3834801423486F940080C0D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3834801B23486F940080C0D3;
+			remoteInfo = MarsPriceDetector;
+		};
+		3834804123486F980080C0D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3834801423486F940080C0D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3834801B23486F940080C0D3;
+			remoteInfo = MarsPriceDetector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3834801C23486F940080C0D3 /* MarsPriceDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsPriceDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3834801F23486F940080C0D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3834802123486F940080C0D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3834802323486F940080C0D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3834802623486F940080C0D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3834802923486F940080C0D3 /* MarsPriceDetector.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MarsPriceDetector.xcdatamodel; sourceTree = "<group>"; };
+		3834802B23486F970080C0D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3834802E23486F970080C0D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3834803023486F970080C0D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3834803523486F980080C0D3 /* MarsPriceDetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsPriceDetectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3834803923486F980080C0D3 /* MarsPriceDetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsPriceDetectorTests.swift; sourceTree = "<group>"; };
+		3834803B23486F980080C0D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3834804023486F980080C0D3 /* MarsPriceDetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsPriceDetectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3834804423486F980080C0D3 /* MarsPriceDetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsPriceDetectorUITests.swift; sourceTree = "<group>"; };
+		3834804623486F980080C0D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3834805223486FAB0080C0D3 /* MarsHabitatPricer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MarsHabitatPricer.mlmodel; path = ../../MarsHabitatPricer.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3834801923486F940080C0D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3834803223486F980080C0D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3834803D23486F980080C0D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3834801323486F940080C0D3 = {
+			isa = PBXGroup;
+			children = (
+				3834801E23486F940080C0D3 /* MarsPriceDetector */,
+				3834803823486F980080C0D3 /* MarsPriceDetectorTests */,
+				3834804323486F980080C0D3 /* MarsPriceDetectorUITests */,
+				3834801D23486F940080C0D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3834801D23486F940080C0D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3834801C23486F940080C0D3 /* MarsPriceDetector.app */,
+				3834803523486F980080C0D3 /* MarsPriceDetectorTests.xctest */,
+				3834804023486F980080C0D3 /* MarsPriceDetectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3834801E23486F940080C0D3 /* MarsPriceDetector */ = {
+			isa = PBXGroup;
+			children = (
+				3834801F23486F940080C0D3 /* AppDelegate.swift */,
+				3834802123486F940080C0D3 /* SceneDelegate.swift */,
+				3834805223486FAB0080C0D3 /* MarsHabitatPricer.mlmodel */,
+				3834802323486F940080C0D3 /* ViewController.swift */,
+				3834802523486F940080C0D3 /* Main.storyboard */,
+				3834802B23486F970080C0D3 /* Assets.xcassets */,
+				3834802D23486F970080C0D3 /* LaunchScreen.storyboard */,
+				3834803023486F970080C0D3 /* Info.plist */,
+				3834802823486F940080C0D3 /* MarsPriceDetector.xcdatamodeld */,
+			);
+			path = MarsPriceDetector;
+			sourceTree = "<group>";
+		};
+		3834803823486F980080C0D3 /* MarsPriceDetectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				3834803923486F980080C0D3 /* MarsPriceDetectorTests.swift */,
+				3834803B23486F980080C0D3 /* Info.plist */,
+			);
+			path = MarsPriceDetectorTests;
+			sourceTree = "<group>";
+		};
+		3834804323486F980080C0D3 /* MarsPriceDetectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3834804423486F980080C0D3 /* MarsPriceDetectorUITests.swift */,
+				3834804623486F980080C0D3 /* Info.plist */,
+			);
+			path = MarsPriceDetectorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3834801B23486F940080C0D3 /* MarsPriceDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3834804923486F980080C0D3 /* Build configuration list for PBXNativeTarget "MarsPriceDetector" */;
+			buildPhases = (
+				3834801823486F940080C0D3 /* Sources */,
+				3834801923486F940080C0D3 /* Frameworks */,
+				3834801A23486F940080C0D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarsPriceDetector;
+			productName = MarsPriceDetector;
+			productReference = 3834801C23486F940080C0D3 /* MarsPriceDetector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3834803423486F980080C0D3 /* MarsPriceDetectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3834804C23486F980080C0D3 /* Build configuration list for PBXNativeTarget "MarsPriceDetectorTests" */;
+			buildPhases = (
+				3834803123486F980080C0D3 /* Sources */,
+				3834803223486F980080C0D3 /* Frameworks */,
+				3834803323486F980080C0D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3834803723486F980080C0D3 /* PBXTargetDependency */,
+			);
+			name = MarsPriceDetectorTests;
+			productName = MarsPriceDetectorTests;
+			productReference = 3834803523486F980080C0D3 /* MarsPriceDetectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3834803F23486F980080C0D3 /* MarsPriceDetectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3834804F23486F980080C0D3 /* Build configuration list for PBXNativeTarget "MarsPriceDetectorUITests" */;
+			buildPhases = (
+				3834803C23486F980080C0D3 /* Sources */,
+				3834803D23486F980080C0D3 /* Frameworks */,
+				3834803E23486F980080C0D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3834804223486F980080C0D3 /* PBXTargetDependency */,
+			);
+			name = MarsPriceDetectorUITests;
+			productName = MarsPriceDetectorUITests;
+			productReference = 3834804023486F980080C0D3 /* MarsPriceDetectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3834801423486F940080C0D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = akanksharma;
+				TargetAttributes = {
+					3834801B23486F940080C0D3 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					3834803423486F980080C0D3 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 3834801B23486F940080C0D3;
+					};
+					3834803F23486F980080C0D3 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 3834801B23486F940080C0D3;
+					};
+				};
+			};
+			buildConfigurationList = 3834801723486F940080C0D3 /* Build configuration list for PBXProject "MarsPriceDetector" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3834801323486F940080C0D3;
+			productRefGroup = 3834801D23486F940080C0D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3834801B23486F940080C0D3 /* MarsPriceDetector */,
+				3834803423486F980080C0D3 /* MarsPriceDetectorTests */,
+				3834803F23486F980080C0D3 /* MarsPriceDetectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3834801A23486F940080C0D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3834802F23486F970080C0D3 /* LaunchScreen.storyboard in Resources */,
+				3834802C23486F970080C0D3 /* Assets.xcassets in Resources */,
+				3834802723486F940080C0D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3834803323486F980080C0D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3834803E23486F980080C0D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3834801823486F940080C0D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3834802423486F940080C0D3 /* ViewController.swift in Sources */,
+				3834802023486F940080C0D3 /* AppDelegate.swift in Sources */,
+				3834802A23486F940080C0D3 /* MarsPriceDetector.xcdatamodeld in Sources */,
+				3834805323486FAB0080C0D3 /* MarsHabitatPricer.mlmodel in Sources */,
+				3834802223486F940080C0D3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3834803123486F980080C0D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3834803A23486F980080C0D3 /* MarsPriceDetectorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3834803C23486F980080C0D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3834804523486F980080C0D3 /* MarsPriceDetectorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3834803723486F980080C0D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3834801B23486F940080C0D3 /* MarsPriceDetector */;
+			targetProxy = 3834803623486F980080C0D3 /* PBXContainerItemProxy */;
+		};
+		3834804223486F980080C0D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3834801B23486F940080C0D3 /* MarsPriceDetector */;
+			targetProxy = 3834804123486F980080C0D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3834802523486F940080C0D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3834802623486F940080C0D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3834802D23486F970080C0D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3834802E23486F970080C0D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3834804723486F980080C0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3834804823486F980080C0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3834804A23486F980080C0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RT4H7Y9A3;
+				INFOPLIST_FILE = MarsPriceDetector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MarsPriceDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3834804B23486F980080C0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RT4H7Y9A3;
+				INFOPLIST_FILE = MarsPriceDetector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MarsPriceDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3834804D23486F980080C0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RT4H7Y9A3;
+				INFOPLIST_FILE = MarsPriceDetectorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MarsPriceDetectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarsPriceDetector.app/MarsPriceDetector";
+			};
+			name = Debug;
+		};
+		3834804E23486F980080C0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RT4H7Y9A3;
+				INFOPLIST_FILE = MarsPriceDetectorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MarsPriceDetectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarsPriceDetector.app/MarsPriceDetector";
+			};
+			name = Release;
+		};
+		3834805023486F980080C0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RT4H7Y9A3;
+				INFOPLIST_FILE = MarsPriceDetectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MarsPriceDetectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarsPriceDetector;
+			};
+			name = Debug;
+		};
+		3834805123486F980080C0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RT4H7Y9A3;
+				INFOPLIST_FILE = MarsPriceDetectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MarsPriceDetectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarsPriceDetector;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3834801723486F940080C0D3 /* Build configuration list for PBXProject "MarsPriceDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3834804723486F980080C0D3 /* Debug */,
+				3834804823486F980080C0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3834804923486F980080C0D3 /* Build configuration list for PBXNativeTarget "MarsPriceDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3834804A23486F980080C0D3 /* Debug */,
+				3834804B23486F980080C0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3834804C23486F980080C0D3 /* Build configuration list for PBXNativeTarget "MarsPriceDetectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3834804D23486F980080C0D3 /* Debug */,
+				3834804E23486F980080C0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3834804F23486F980080C0D3 /* Build configuration list for PBXNativeTarget "MarsPriceDetectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3834805023486F980080C0D3 /* Debug */,
+				3834805123486F980080C0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3834802823486F940080C0D3 /* MarsPriceDetector.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3834802923486F940080C0D3 /* MarsPriceDetector.xcdatamodel */,
+			);
+			currentVersion = 3834802923486F940080C0D3 /* MarsPriceDetector.xcdatamodel */;
+			path = MarsPriceDetector.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3834801423486F940080C0D3 /* Project object */;
+}
