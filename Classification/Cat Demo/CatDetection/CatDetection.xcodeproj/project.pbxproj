@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		383480102348601C0080C0D3 /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3834800F2348601C0080C0D3 /* cat.jpg */; };
+		383480122348602B0080C0D3 /* UIImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383480112348602B0080C0D3 /* UIImage+CVPixelBuffer.swift */; };
 		3838D8852347F3F60090BAA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3838D8842347F3F60090BAA2 /* AppDelegate.swift */; };
 		3838D8872347F3F60090BAA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3838D8862347F3F60090BAA2 /* SceneDelegate.swift */; };
 		3838D8892347F3F60090BAA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3838D8882347F3F60090BAA2 /* ViewController.swift */; };
@@ -16,9 +18,7 @@
 		3838D8942347F3F80090BAA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3838D8922347F3F80090BAA2 /* LaunchScreen.storyboard */; };
 		3838D89F2347F3F90090BAA2 /* CatDetectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3838D89E2347F3F90090BAA2 /* CatDetectionTests.swift */; };
 		3838D8AA2347F3F90090BAA2 /* CatDetectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3838D8A92347F3F90090BAA2 /* CatDetectionUITests.swift */; };
-		3838D8B82347F40D0090BAA2 /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3838D8B72347F40C0090BAA2 /* cat.jpg */; };
 		3838D8BA2347F46E0090BAA2 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3838D8B92347F46E0090BAA2 /* MobileNet.mlmodel */; };
-		3838D8BE2347F58D0090BAA2 /* UIImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3838D8BD2347F58D0090BAA2 /* UIImage+CVPixelBuffer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3834800F2348601C0080C0D3 /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
+		383480112348602B0080C0D3 /* UIImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
 		3838D8812347F3F60090BAA2 /* CatDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3838D8842347F3F60090BAA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3838D8862347F3F60090BAA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,9 +56,7 @@
 		3838D8A52347F3F90090BAA2 /* CatDetectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatDetectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3838D8A92347F3F90090BAA2 /* CatDetectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatDetectionUITests.swift; sourceTree = "<group>"; };
 		3838D8AB2347F3F90090BAA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3838D8B72347F40C0090BAA2 /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat.jpg; path = "../../../../Cat Demo/cat.jpg"; sourceTree = "<group>"; };
 		3838D8B92347F46E0090BAA2 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MobileNet.mlmodel; path = ../../../MobileNet.mlmodel; sourceTree = "<group>"; };
-		3838D8BD2347F58D0090BAA2 /* UIImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+CVPixelBuffer.swift"; path = "../../../../Cat Demo/MobileNetCoreML/UIImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,9 +110,9 @@
 				3838D8842347F3F60090BAA2 /* AppDelegate.swift */,
 				3838D8862347F3F60090BAA2 /* SceneDelegate.swift */,
 				3838D8B92347F46E0090BAA2 /* MobileNet.mlmodel */,
-				3838D8B72347F40C0090BAA2 /* cat.jpg */,
+				3834800F2348601C0080C0D3 /* cat.jpg */,
 				3838D8882347F3F60090BAA2 /* ViewController.swift */,
-				3838D8BD2347F58D0090BAA2 /* UIImage+CVPixelBuffer.swift */,
+				383480112348602B0080C0D3 /* UIImage+CVPixelBuffer.swift */,
 				3838D88A2347F3F60090BAA2 /* Main.storyboard */,
 				3838D8902347F3F80090BAA2 /* Assets.xcassets */,
 				3838D8922347F3F80090BAA2 /* LaunchScreen.storyboard */,
@@ -244,9 +244,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				383480102348601C0080C0D3 /* cat.jpg in Resources */,
 				3838D8942347F3F80090BAA2 /* LaunchScreen.storyboard in Resources */,
 				3838D8912347F3F80090BAA2 /* Assets.xcassets in Resources */,
-				3838D8B82347F40D0090BAA2 /* cat.jpg in Resources */,
 				3838D88C2347F3F60090BAA2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,9 +273,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3838D88F2347F3F60090BAA2 /* CatDetection.xcdatamodeld in Sources */,
-				3838D8BE2347F58D0090BAA2 /* UIImage+CVPixelBuffer.swift in Sources */,
 				3838D8BA2347F46E0090BAA2 /* MobileNet.mlmodel in Sources */,
 				3838D8892347F3F60090BAA2 /* ViewController.swift in Sources */,
+				383480122348602B0080C0D3 /* UIImage+CVPixelBuffer.swift in Sources */,
 				3838D8852347F3F60090BAA2 /* AppDelegate.swift in Sources */,
 				3838D8872347F3F60090BAA2 /* SceneDelegate.swift in Sources */,
 			);
