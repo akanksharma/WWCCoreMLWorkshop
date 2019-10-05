@@ -18,11 +18,7 @@ class ViewController: UIViewController {
     }
 
     func predictUsingCoreML(){
-        let model = MobileNet()
-        if let imageBuffer = detectedImage.image?.pixelBuffer(width: 224, height: 224) {
-           let prediction = try? model.prediction(data: imageBuffer)
-            print(prediction?.classLabel)
-        }
+        
     }
     
     
